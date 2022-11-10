@@ -12,11 +12,10 @@
 
 ActiveRecord::Schema.define(version: 2022_11_09_154740) do
 
-  create_table "pet_owners", force: :cascade do |t|
+  create_table "owners", force: :cascade do |t|
     t.string "name"
     t.string "location"
     t.integer "phone_number"
-    t.integer "pet_id"
   end
 
   create_table "pets", force: :cascade do |t|
@@ -27,6 +26,7 @@ ActiveRecord::Schema.define(version: 2022_11_09_154740) do
     t.integer "age"
     t.string "category"
     t.string "image_url"
+    t.integer "owner_id"
   end
 
 end
