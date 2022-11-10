@@ -10,18 +10,12 @@ puts "🌱 Seeding spices..."
         pet8=Pet.create(name:"cherry",price:40,location:"beverly hills",breed:"irish setter")
 # Seed your database here
 
-owner1=PetOwner.create(name:"julius",phone_number:4567890,location:"florida",pet_id:6)
-owner2=PetOwner.create(name:"aggrey",phone_number:567560,location:"california",pet_id:5)
-owner3=PetOwner.create(name:"maria",phone_number:023450,location:"florida",pet_id:1)
-owner4=PetOwner.create(name:"martin",phone_number:234432,location:"orlando",pet_id:4)
-owner5=PetOwner.create(name:"julius",phone_number:4567890,location:"florida",pet_id:3)
-owner6=PetOwner.create(name:"isaack",phone_number:1112230,location:"carlifornia",pet_id:8)
-owner7=PetOwner.create(name:"davemathews",phone_number:4567890,location:"seasons",pet_id:2)
-
-
-
-
-
-
+        owner1=PetOwner.create(name:"julius",phone_number:4567890,location:"florida",pet_id:6)
+        owner2=PetOwner.create(name:"aggrey",phone_number:567560,location:"california",pet_id:5)
+        owner3=PetOwner.create(name:"maria",phone_number:023450,location:"florida",pet_id:1)
+        owner4=PetOwner.create(name:"martin",phone_number:234432,location:"orlando",pet_id:4)
+        owner5=PetOwner.create(name:"julius",phone_number:4567890,location:"florida",pet_id:3)
+        owner6=PetOwner.create(name:"isaack",phone_number:1112230,location:"carlifornia",pet_id:8)
+        owner7=PetOwner.create(name:"davemathews",phone_number:4567890,location:"seasons",pet_id:2)
 
 puts "✅ Done seeding!"
